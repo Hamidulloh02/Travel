@@ -22,7 +22,7 @@ const langArr = {
     "index_carus_text_uzb":{
         "uz":"Buxoro",
         "ru":"Бухара",
-        "en":"Buxoro"
+        "en":"Bukhara"
     },
     "index_carus_text_tash":{
         "uz":"O`zbekistondan sayohatlar: arzon narxlarda unutilmas sayohatlar",
