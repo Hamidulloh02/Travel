@@ -2,6 +2,7 @@
 const maxImg = document.querySelector('.right-panel img');
 const select = document.querySelector('select');
 const allLang = ['uz', 'ru', 'en'];
+const OnClickPayment = document.getElementsByClassName('onClickPayment');
 
 document.querySelectorAll('.left-panel img').forEach(item => item.onmouseenter = (event) => maxImg.src = event.target.src);
 
@@ -12,6 +13,7 @@ function changeURLLanguage() {
     let lang = select.value;
     location.href = window.location.pathname + '#' + lang;
     location.reload();
+    localStorage.setItem('lang' , lang)
 }
 
 function changeLanguage() {
@@ -19,7 +21,7 @@ function changeLanguage() {
     hash = hash.substr(1);
     console.log(hash);
     if (!allLang.includes(hash)) {
-        location.href = window.location.pathname + '#en';
+        location.href = window.location.pathname + "#en";
        
     }
     select.value = hash;
@@ -54,3 +56,16 @@ function changeLanguageinp(params){
       localStorage.removeItem('firstLoad');
   }
 })();
+
+const myjson ={
+    "name":"Xitoy",
+    "cost":"5 000 000"
+}
+
+(function (){
+    OnClickPayment.onclick = function() {
+       var mydata= window.localStorage.setItem('car', JSON.stringify(myjson));
+    };
+})();
+
+console.log(mydata)
