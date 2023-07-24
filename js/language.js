@@ -625,34 +625,34 @@ const langArr = {
         "en":"Send"
     },
     "paytext1":{
-        "uz":"to'lash",
-        "ru":"платить",
-        "en":"pay"
+        "uz":"To'lash",
+        "ru":"Платить",
+        "en":"Pay"
     },
     "paytext2":{
-        "uz":"to'lash",
-        "ru":"платить",
-        "en":"pay"
+        "uz":"To'lash",
+        "ru":"Платить",
+        "en":"Pay"
     },
     "paytext3":{
-        "uz":"to'lash",
-        "ru":"платить",
-        "en":"pay"
+        "uz":"To'lash",
+        "ru":"Платить",
+        "en":"Pay"
     },
     "paytext4":{
-        "uz":"to'lash",
-        "ru":"платить",
-        "en":"pay"
+        "uz":"To'lash",
+        "ru":"Платить",
+        "en":"Pay"
     },
     "paytext5":{
-        "uz":"to'lash",
-        "ru":"платить",
-        "en":"pay"
+        "uz":"To'lash",
+        "ru":"Платить",
+        "en":"Pay"
     },  
     "paytext6":{
-        "uz":"to'lash",
-        "ru":"платить",
-        "en":"pay"
+        "uz":"To'lash",
+        "ru":"Платить",
+        "en":"Pay"
     }
     
 }
