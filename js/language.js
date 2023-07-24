@@ -623,6 +623,36 @@ const langArr = {
         "uz":"Yuborish",
         "ru":"Отправлять",
         "en":"Send"
+    },
+    "paytext1":{
+        "uz":"to'lash",
+        "ru":"платить",
+        "en":"pay"
+    },
+    "paytext2":{
+        "uz":"to'lash",
+        "ru":"платить",
+        "en":"pay"
+    },
+    "paytext3":{
+        "uz":"to'lash",
+        "ru":"платить",
+        "en":"pay"
+    },
+    "paytext4":{
+        "uz":"to'lash",
+        "ru":"платить",
+        "en":"pay"
+    },
+    "paytext5":{
+        "uz":"to'lash",
+        "ru":"платить",
+        "en":"pay"
+    },  
+    "paytext6":{
+        "uz":"to'lash",
+        "ru":"платить",
+        "en":"pay"
     }
     
 }
