@@ -240,7 +240,7 @@ top: 30%;
 z-index: 1000;
 left: 55%;
 }
-@media(max-width:400px){
+@media(max-width:420px){
   .lang_btn{
     display: flex;
   position: absolute;
@@ -667,15 +667,18 @@ right:50px;
     left: 35%;
   }
 }
+@media(max-width:420px){
+  .lang_btn01{
+    position: absolute;
+    top: 10px;
+    right:65px;
+    }
+}
 @media(max-width:400px){
   .uzbektoursimg{
     width: 90px;
   }
-  .lang_btn01{
-    position: absolute;
-    top: 10px;
-    right:70px;
-    }
+
 }
 
 /* line 315, ../../Arafath/CL/December/231. Travel-02/HTML/scss/theme-default.scss */
